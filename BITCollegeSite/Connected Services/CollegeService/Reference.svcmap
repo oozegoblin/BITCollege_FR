@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f9a388b1-b1ae-4908-b60f-c099c58cb99d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55686/CollegeRegistration.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CollegeRegistration.xsd" MetadataType="Schema" ID="944b566f-042e-4fd0-8b57-80d62a9e9371" SourceId="1" SourceUrl="http://localhost:55686/CollegeRegistration.svc?xsd=xsd0" />
+    <MetadataFile FileName="CollegeRegistration.disco" MetadataType="Disco" ID="e29a8381-aebf-4f8b-a47c-3100865c9339" SourceId="1" SourceUrl="http://localhost:55686/CollegeRegistration.svc?disco" />
+    <MetadataFile FileName="CollegeRegistration.wsdl" MetadataType="Wsdl" ID="68b49bb5-93dc-406f-832b-6df0515c6bdf" SourceId="1" SourceUrl="http://localhost:55686/CollegeRegistration.svc?wsdl" />
+    <MetadataFile FileName="CollegeRegistration1.xsd" MetadataType="Schema" ID="dfb160f4-5c42-44b9-94bc-bbfc2d9d3676" SourceId="1" SourceUrl="http://localhost:55686/CollegeRegistration.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

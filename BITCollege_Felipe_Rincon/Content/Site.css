@@ -1,0 +1,40 @@
+﻿/*/*
+* Name: Felipe Rincon
+* Course: COMP-1281 C# Programming 3
+* Created: 2024-01-13
+* Updated: 2024-01-26
+
+    // Site.Css modified accordingly
+*/
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+/*Id defined to indicate space or \n as a line feed.*/
+#line_feed th {
+    white-space: pre-line
+}
+/*Id defined for double or double?, for the th or td view*/
+#double_double{
+    text-align: right
+}
